@@ -1,0 +1,9 @@
+module CJOSEMOD [system][extern_c] {
+    header "./lib/concatkdf_int.h"
+    header "./lib/header_int.h"
+    header "./lib/jwe_int.h"
+    header "./lib/jwk_int.h"
+    header "./lib/jws_int.h"
+    header "./lib/util_int.h"
+    export *
+}

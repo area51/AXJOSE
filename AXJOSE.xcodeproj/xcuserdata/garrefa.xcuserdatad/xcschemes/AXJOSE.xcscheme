@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "800763B52142AFCA00856CE4"
-               BuildableName = "CJOSE.framework"
-               BlueprintName = "CJOSE"
-               ReferencedContainer = "container:AXJOSE.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "800763652142AD4E00856CE4"
                BuildableName = "AXJOSE.app"
                BlueprintName = "AXJOSE"
