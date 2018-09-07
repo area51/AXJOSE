@@ -1,4 +1,4 @@
-module CJOSEMOD [system][extern_c] {
+module CJOSEMOD {
     header "./libs/concatkdf_int.h"
     header "./libs/header_int.h"
     header "./libs/jwe_int.h"
