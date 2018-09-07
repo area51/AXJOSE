@@ -15,9 +15,15 @@
 		800763BA2142AFCA00856CE4 /* CJOSE.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763B82142AFCA00856CE4 /* CJOSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		800763BD2142AFCA00856CE4 /* CJOSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800763B62142AFCA00856CE4 /* CJOSE.framework */; };
 		800763BE2142AFCA00856CE4 /* CJOSE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 800763B62142AFCA00856CE4 /* CJOSE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		800763C72142B0FE00856CE4 /* libcjose.lai in Resources */ = {isa = PBXBuildFile; fileRef = 800763C42142B0FE00856CE4 /* libcjose.lai */; };
-		800763C82142B0FE00856CE4 /* libcjose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 800763C52142B0FE00856CE4 /* libcjose.a */; };
-		800763C92142B0FE00856CE4 /* libcjose.la in Resources */ = {isa = PBXBuildFile; fileRef = 800763C62142B0FE00856CE4 /* libcjose.la */; };
+		800763D52142B3F000856CE4 /* jwk_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763CB2142B3F000856CE4 /* jwk_int.h */; };
+		800763D62142B3F000856CE4 /* jws_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763CC2142B3F000856CE4 /* jws_int.h */; };
+		800763D72142B3F000856CE4 /* concatkdf_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763CD2142B3F000856CE4 /* concatkdf_int.h */; };
+		800763D82142B3F000856CE4 /* util_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763CE2142B3F000856CE4 /* util_int.h */; };
+		800763D92142B3F000856CE4 /* header_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763CF2142B3F000856CE4 /* header_int.h */; };
+		800763DA2142B3F000856CE4 /* jwe_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763D02142B3F000856CE4 /* jwe_int.h */; };
+		800763DB2142B3F000856CE4 /* libcjose.lai in Resources */ = {isa = PBXBuildFile; fileRef = 800763D22142B3F000856CE4 /* libcjose.lai */; };
+		800763DC2142B3F000856CE4 /* libcjose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 800763D32142B3F000856CE4 /* libcjose.a */; };
+		800763DD2142B3F000856CE4 /* libcjose.la in Resources */ = {isa = PBXBuildFile; fileRef = 800763D42142B3F000856CE4 /* libcjose.la */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +62,15 @@
 		800763B82142AFCA00856CE4 /* CJOSE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJOSE.h; sourceTree = "<group>"; };
 		800763B92142AFCA00856CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800763C22142B05300856CE4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		800763C42142B0FE00856CE4 /* libcjose.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.lai; sourceTree = "<group>"; };
-		800763C52142B0FE00856CE4 /* libcjose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcjose.a; sourceTree = "<group>"; };
-		800763C62142B0FE00856CE4 /* libcjose.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.la; sourceTree = "<group>"; };
+		800763CB2142B3F000856CE4 /* jwk_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jwk_int.h; sourceTree = "<group>"; };
+		800763CC2142B3F000856CE4 /* jws_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jws_int.h; sourceTree = "<group>"; };
+		800763CD2142B3F000856CE4 /* concatkdf_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concatkdf_int.h; sourceTree = "<group>"; };
+		800763CE2142B3F000856CE4 /* util_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_int.h; sourceTree = "<group>"; };
+		800763CF2142B3F000856CE4 /* header_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header_int.h; sourceTree = "<group>"; };
+		800763D02142B3F000856CE4 /* jwe_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jwe_int.h; sourceTree = "<group>"; };
+		800763D22142B3F000856CE4 /* libcjose.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.lai; sourceTree = "<group>"; };
+		800763D32142B3F000856CE4 /* libcjose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcjose.a; sourceTree = "<group>"; };
+		800763D42142B3F000856CE4 /* libcjose.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.la; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800763C82142B0FE00856CE4 /* libcjose.a in Frameworks */,
+				800763DC2142B3F000856CE4 /* libcjose.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +127,8 @@
 		800763B72142AFCA00856CE4 /* CJOSE */ = {
 			isa = PBXGroup;
 			children = (
-				800763C32142B0FE00856CE4 /* libs */,
+				800763CA2142B3F000856CE4 /* include */,
+				800763D12142B3F000856CE4 /* libs */,
 				800763C22142B05300856CE4 /* module.modulemap */,
 				800763B82142AFCA00856CE4 /* CJOSE.h */,
 				800763B92142AFCA00856CE4 /* Info.plist */,
@@ -123,12 +136,26 @@
 			path = CJOSE;
 			sourceTree = "<group>";
 		};
-		800763C32142B0FE00856CE4 /* libs */ = {
+		800763CA2142B3F000856CE4 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				800763C42142B0FE00856CE4 /* libcjose.lai */,
-				800763C52142B0FE00856CE4 /* libcjose.a */,
-				800763C62142B0FE00856CE4 /* libcjose.la */,
+				800763CB2142B3F000856CE4 /* jwk_int.h */,
+				800763CC2142B3F000856CE4 /* jws_int.h */,
+				800763CD2142B3F000856CE4 /* concatkdf_int.h */,
+				800763CE2142B3F000856CE4 /* util_int.h */,
+				800763CF2142B3F000856CE4 /* header_int.h */,
+				800763D02142B3F000856CE4 /* jwe_int.h */,
+			);
+			name = include;
+			path = cjoselib/src/include;
+			sourceTree = "<group>";
+		};
+		800763D12142B3F000856CE4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				800763D22142B3F000856CE4 /* libcjose.lai */,
+				800763D32142B3F000856CE4 /* libcjose.a */,
+				800763D42142B3F000856CE4 /* libcjose.la */,
 			);
 			name = libs;
 			path = cjoselib/src/libs;
@@ -141,7 +168,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800763DA2142B3F000856CE4 /* jwe_int.h in Headers */,
+				800763D72142B3F000856CE4 /* concatkdf_int.h in Headers */,
+				800763D92142B3F000856CE4 /* header_int.h in Headers */,
+				800763D62142B3F000856CE4 /* jws_int.h in Headers */,
 				800763BA2142AFCA00856CE4 /* CJOSE.h in Headers */,
+				800763D82142B3F000856CE4 /* util_int.h in Headers */,
+				800763D52142B3F000856CE4 /* jwk_int.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,8 +270,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				800763C72142B0FE00856CE4 /* libcjose.lai in Resources */,
-				800763C92142B0FE00856CE4 /* libcjose.la in Resources */,
+				800763DB2142B3F000856CE4 /* libcjose.lai in Resources */,
+				800763DD2142B3F000856CE4 /* libcjose.la in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
