@@ -1,9 +1,0 @@
-module CJOSE [system][extern_c] {
-    header "../CJOSE/src/lib/concatkdf_int.h"
-    header "../CJOSE/src/lib/header_int.h"
-    header "../CJOSE/src/lib/jwe_int.h"
-    header "../CJOSE/src/lib/jwk_int.h"
-    header "../CJOSE/src/lib/jws_int.h"
-    header "../CJOSE/src/lib/util_int.h"
-    export *
-}

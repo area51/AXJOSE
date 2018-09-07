@@ -12,10 +12,37 @@
 		8007636F2142AD4E00856CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8007636D2142AD4E00856CE4 /* Main.storyboard */; };
 		800763712142AD4F00856CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800763702142AD4F00856CE4 /* Assets.xcassets */; };
 		800763742142AD4F00856CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800763722142AD4F00856CE4 /* LaunchScreen.storyboard */; };
-		800763892142ADDC00856CE4 /* libcjose.lai in Resources */ = {isa = PBXBuildFile; fileRef = 800763862142ADDC00856CE4 /* libcjose.lai */; };
-		8007638A2142ADDC00856CE4 /* libcjose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 800763872142ADDC00856CE4 /* libcjose.a */; };
-		8007638B2142ADDC00856CE4 /* libcjose.la in Resources */ = {isa = PBXBuildFile; fileRef = 800763882142ADDC00856CE4 /* libcjose.la */; };
+		800763BA2142AFCA00856CE4 /* CJOSE.h in Headers */ = {isa = PBXBuildFile; fileRef = 800763B82142AFCA00856CE4 /* CJOSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		800763BD2142AFCA00856CE4 /* CJOSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800763B62142AFCA00856CE4 /* CJOSE.framework */; };
+		800763BE2142AFCA00856CE4 /* CJOSE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 800763B62142AFCA00856CE4 /* CJOSE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		800763C72142B0FE00856CE4 /* libcjose.lai in Resources */ = {isa = PBXBuildFile; fileRef = 800763C42142B0FE00856CE4 /* libcjose.lai */; };
+		800763C82142B0FE00856CE4 /* libcjose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 800763C52142B0FE00856CE4 /* libcjose.a */; };
+		800763C92142B0FE00856CE4 /* libcjose.la in Resources */ = {isa = PBXBuildFile; fileRef = 800763C62142B0FE00856CE4 /* libcjose.la */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800763BB2142AFCA00856CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8007635E2142AD4E00856CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800763B52142AFCA00856CE4;
+			remoteInfo = CJOSE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8007639D2142AF5800856CE4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				800763BE2142AFCA00856CE4 /* CJOSE.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		800763662142AD4E00856CE4 /* AXJOSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXJOSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,10 +52,13 @@
 		800763702142AD4F00856CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800763732142AD4F00856CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800763752142AD4F00856CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		800763842142ADBF00856CE4 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		800763862142ADDC00856CE4 /* libcjose.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.lai; sourceTree = "<group>"; };
-		800763872142ADDC00856CE4 /* libcjose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcjose.a; sourceTree = "<group>"; };
-		800763882142ADDC00856CE4 /* libcjose.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.la; sourceTree = "<group>"; };
+		800763B62142AFCA00856CE4 /* CJOSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJOSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800763B82142AFCA00856CE4 /* CJOSE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJOSE.h; sourceTree = "<group>"; };
+		800763B92142AFCA00856CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800763C22142B05300856CE4 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		800763C42142B0FE00856CE4 /* libcjose.lai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.lai; sourceTree = "<group>"; };
+		800763C52142B0FE00856CE4 /* libcjose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcjose.a; sourceTree = "<group>"; };
+		800763C62142B0FE00856CE4 /* libcjose.la */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libcjose.la; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +66,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8007638A2142ADDC00856CE4 /* libcjose.a in Frameworks */,
+				800763BD2142AFCA00856CE4 /* CJOSE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800763B22142AFCA00856CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800763C82142B0FE00856CE4 /* libcjose.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				800763682142AD4E00856CE4 /* AXJOSE */,
+				800763B72142AFCA00856CE4 /* CJOSE */,
 				800763672142AD4E00856CE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				800763662142AD4E00856CE4 /* AXJOSE.app */,
+				800763B62142AFCA00856CE4 /* CJOSE.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +102,6 @@
 		800763682142AD4E00856CE4 /* AXJOSE */ = {
 			isa = PBXGroup;
 			children = (
-				800763832142ADBF00856CE4 /* CJOSEMODULE */,
 				800763692142AD4E00856CE4 /* AppDelegate.swift */,
 				8007636B2142AD4E00856CE4 /* ViewController.swift */,
 				8007636D2142AD4E00856CE4 /* Main.storyboard */,
@@ -73,27 +112,40 @@
 			path = AXJOSE;
 			sourceTree = "<group>";
 		};
-		800763832142ADBF00856CE4 /* CJOSEMODULE */ = {
+		800763B72142AFCA00856CE4 /* CJOSE */ = {
 			isa = PBXGroup;
 			children = (
-				800763852142ADDC00856CE4 /* libs */,
-				800763842142ADBF00856CE4 /* module.modulemap */,
+				800763C32142B0FE00856CE4 /* libs */,
+				800763C22142B05300856CE4 /* module.modulemap */,
+				800763B82142AFCA00856CE4 /* CJOSE.h */,
+				800763B92142AFCA00856CE4 /* Info.plist */,
 			);
-			path = CJOSEMODULE;
-			sourceTree = SOURCE_ROOT;
+			path = CJOSE;
+			sourceTree = "<group>";
 		};
-		800763852142ADDC00856CE4 /* libs */ = {
+		800763C32142B0FE00856CE4 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				800763862142ADDC00856CE4 /* libcjose.lai */,
-				800763872142ADDC00856CE4 /* libcjose.a */,
-				800763882142ADDC00856CE4 /* libcjose.la */,
+				800763C42142B0FE00856CE4 /* libcjose.lai */,
+				800763C52142B0FE00856CE4 /* libcjose.a */,
+				800763C62142B0FE00856CE4 /* libcjose.la */,
 			);
 			name = libs;
-			path = CJOSE/src/libs;
-			sourceTree = SOURCE_ROOT;
+			path = cjoselib/src/libs;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		800763B32142AFCA00856CE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800763BA2142AFCA00856CE4 /* CJOSE.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		800763652142AD4E00856CE4 /* AXJOSE */ = {
@@ -103,15 +155,35 @@
 				800763622142AD4E00856CE4 /* Sources */,
 				800763632142AD4E00856CE4 /* Frameworks */,
 				800763642142AD4E00856CE4 /* Resources */,
+				8007639D2142AF5800856CE4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				800763BC2142AFCA00856CE4 /* PBXTargetDependency */,
 			);
 			name = AXJOSE;
 			productName = AXJOSE;
 			productReference = 800763662142AD4E00856CE4 /* AXJOSE.app */;
 			productType = "com.apple.product-type.application";
+		};
+		800763B52142AFCA00856CE4 /* CJOSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800763BF2142AFCA00856CE4 /* Build configuration list for PBXNativeTarget "CJOSE" */;
+			buildPhases = (
+				800763B12142AFCA00856CE4 /* Sources */,
+				800763B22142AFCA00856CE4 /* Frameworks */,
+				800763B32142AFCA00856CE4 /* Headers */,
+				800763B42142AFCA00856CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJOSE;
+			productName = CJOSE;
+			productReference = 800763B62142AFCA00856CE4 /* CJOSE.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -124,6 +196,9 @@
 				ORGANIZATIONNAME = "Alex Ribeiro";
 				TargetAttributes = {
 					800763652142AD4E00856CE4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					800763B52142AFCA00856CE4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -142,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				800763652142AD4E00856CE4 /* AXJOSE */,
+				800763B52142AFCA00856CE4 /* CJOSE */,
 			);
 		};
 /* End PBXProject section */
@@ -153,9 +229,16 @@
 			files = (
 				800763742142AD4F00856CE4 /* LaunchScreen.storyboard in Resources */,
 				800763712142AD4F00856CE4 /* Assets.xcassets in Resources */,
-				8007638B2142ADDC00856CE4 /* libcjose.la in Resources */,
 				8007636F2142AD4E00856CE4 /* Main.storyboard in Resources */,
-				800763892142ADDC00856CE4 /* libcjose.lai in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800763B42142AFCA00856CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800763C72142B0FE00856CE4 /* libcjose.lai in Resources */,
+				800763C92142B0FE00856CE4 /* libcjose.la in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +254,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		800763B12142AFCA00856CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800763BC2142AFCA00856CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800763B52142AFCA00856CE4 /* CJOSE */;
+			targetProxy = 800763BB2142AFCA00856CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8007636D2142AD4E00856CE4 /* Main.storyboard */ = {
@@ -353,6 +451,70 @@
 			};
 			name = Release;
 		};
+		800763C02142AFCA00856CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CJOSE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CJOSE/cjoselib/src/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ribeiro.alex.CJOSE;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		800763C12142AFCA00856CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FJKBR6T662;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CJOSE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CJOSE/cjoselib/src/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ribeiro.alex.CJOSE;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -370,6 +532,15 @@
 			buildConfigurations = (
 				800763792142AD4F00856CE4 /* Debug */,
 				8007637A2142AD4F00856CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800763BF2142AFCA00856CE4 /* Build configuration list for PBXNativeTarget "CJOSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800763C02142AFCA00856CE4 /* Debug */,
+				800763C12142AFCA00856CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
